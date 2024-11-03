@@ -1,0 +1,135 @@
+/* main.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Space between intro and main */
+    padding: 45px;
+}
+
+.btnReplay {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.btnReplay:hover {
+    background-color: #45a049;
+}
+
+.btnReset {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.btnReset:hover {
+    background-color: #45a049;
+}
+
+.range {
+    font-size: 18px;
+    color: #ffb3b3;
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #ffcc00;
+    color: #3b3f47;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    color: #3b3f47;
+    margin-right: 10px;
+}
+
+.btnAnswer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5e57;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnAnswer:hover {
+    background-color: #ff3b2d;
+}
+
+.message {
+    font-size: 18px;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+.score, .highscore {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.scoreVal, .highscoreVal {
+    font-weight: bold;
+    color: #ffcc00;
+    display: inline;
+}
